@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cross-Stitch Emoji Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🧵 Cross-Stitch Emoji Gallery</h1>
+        <p>24x24 pixel emoji pixel art for cross-stitch patterns</p>
+      </header>
+
+      <main>
+        <div class="controls">
+          <label for="scale">Pixel Size:</label>
+          <input
+            type="range"
+            id="scale"
+            min="12"
+            max="124"
+            value="24"
+            step="4"
+          />
+          <span id="scaleValue">24px</span>
+          <label for="opacity">Allow opacity:</label>
+          <input type="checkbox" id="opacity" checked />
+          <label for="gridlines">Show gridlines:</label>
+          <input type="checkbox" id="gridlines" checked />
+        </div>
+
+        <div id="gallery" class="gallery">
+          <!-- Emoji tiles will be inserted here -->
+        </div>
+      </main>
+
+      <footer>
+        <p>Created with 💜 for cross-stitch lovers</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
