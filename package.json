@@ -1,7 +1,7 @@
 {
-  "name": "cross-stitch-emojis",
+  "name": "pixelmake",
   "version": "1.0.0",
-  "description": "Generate and display 24x24 pixel emoji pixel art for cross-stitch patterns",
+  "description": "Turn svgs into pixel art that is scalable and can be used for cross-stitch, bead work, and other grid-based crafts.",
   "main": "src/backend/server.js",
   "scripts": {
     "start": "node src/backend/server.js",
@@ -10,8 +10,7 @@
   "keywords": [
     "emoji",
     "pixel-art",
-    "cross-stitch",
-    "png"
+    "cross-stitch"
   ],
   "author": "",
   "license": "MIT",
